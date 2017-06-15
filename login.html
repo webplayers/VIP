@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+<title>会员管理登录</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="login-panel">
+ <form action="./config/login.php"  method="post">
+    <table class="login-context" >
+        <tr>
+            <td width="400" align="center">
+            </td>
+            <td align="center">
+                <table>
+                    <tr>
+                        <td height="40" align="center"><img src ="images/login_tit.png" alt="logo"/></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td width="80" height="35" align="right">帐 号：</td>
+                        <td align="left"><input type="text" name="name" id="txtAccount" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td width="80" height="35" align="right">密 码：</td>
+                        <td align="left"><input type="password" name="password"  id="txtLoginPwd" class="txt"></td>
+                    </tr>
+                    <tr>
+                        <td width="80" height="35" align="right"></td>
+                        <td align="left">
+                            <input  type="submit" name="submit"  value="登 录"  class="btn-login">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+</div>
+
+</body>
+</html>
